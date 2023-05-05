@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="login.css">
+    <title>login Form</title>
+</head>
+<body>
+    <div class="wrapper form">
+        <div class="container second">
+            <div class="row">
+                <div class="col-md-6 side-image">
+                    <!-- image  -->
+                    <div class="col-md-1 px-0 mb-lg-0 position-absolute">
+                     <img src="image/download.jpg" class="img-fluid">
+                      lendsqr </div>
+                    </div>
+                <div class="col-md-6 right">
+                    <div class="input-box">
+                        <header>Creat Account</header>
+                        <div class="input-field">
+                            <input type="text" name="loginUser" class="input" id="email" required autocomplete="off">
+                            <label for="loginUser">Email</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" name="loginPassword" class="input" id="password" required >
+                            <label for="password">Password</label>
+                        </div>
+                        <div>
+                            <input type="submit" class="submit" id="email" value="Sign up" onclick="auth()"/>
+                        </div>
+                        <div class="signin">
+                            <span>Already have an account ? <a href="#">Log in</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
